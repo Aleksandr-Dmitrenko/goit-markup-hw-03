@@ -6,10 +6,11 @@
     <title>Webstudio</title>
 
     <link 
-        rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" 
-        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" 
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
     />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -19,7 +20,8 @@
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header class="page-header">  
+    <header class="page-header"> 
+    <div class="container header-container"> 
         <nav class="header-nav">
             <a class= "logo header-logo" href="./index.html"
             >Web<span class="logo-part">Studio</span></a>
@@ -29,51 +31,56 @@
                 <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
             </ul>
         </nav>
-
         <address class="contacts">
             <ul class="contacts-list">
                 <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+    </div>
     </header>
 
     <main>
         <!-- slogan -->
-        <section class="slogan">
+        <section class="page-section-one section">
+        <div class="container container-section-one">
             <h1 class="slogan-title">
                 Effective Solutions for Your Business
             </h1>
             <button class="button" type="button">Order Service</button>
+        </div>
         </section>
         <!-- advantages -->
-        <section class="advantages">
-            <h2></h2>
-            <ul>
-                <li>
+        <section class="section">
+            <div class="container">
+            <h2 class="advantages-list visualli-hidden"></h2>
+            <ul class="card-set">
+                <li class="card-set-item">
                     <h3 class="advantages-list">Strategy</h3>
                     <p class="advantages-list-description">Our goal is to identify the business problem to walk away with the perfect and creative solution.
                     </p>
                 </li>
-                <li>
+                <li class="card-set-item">
                     <h3 class="advantages-list">Punctuality</h3>
                     <p class="advantages-list-description">Bring the key message to the brand's audience for the best price within the shortest possible time.
                     </p>
                 </li>
-                <li>
+                <li class="card-set-item">
                     <h3 class="advantages-list">Diligence</h3>
                     <p class="advantages-list-description">Research and confirm brands with the strongest digital growth opportunities and minimize risk.
                     </p>
                 </li>
-                <li>
+                <li class="card-set-item">
                     <h3 class="advantages-list">Technologies</h3>
                     <p class="advantages-list-description">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
                     </p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- Team -->
         <section class="our-team">
+            <div class="container">
             <h2 class="our-team-title">Our Team</h2>
             <ul>
                 <li class="our-team-list">
@@ -97,9 +104,11 @@
                     <p class="our-team-list-description">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--our-portfolio-->
         <section class="portfolio">
+            <div class="container">
             <h2 class="portfolio-title">Our Portfolio</h2>
             <ul>
                 <li>
@@ -133,13 +142,16 @@
                     <p class="portfolio-descrsption">Marketing</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <footer class="page-footer">
+        <div class="container">
             <a class= "logo footer-logo" href="./index.html"
             >Web<span class="logo-part">Studio</span></a>
             <P class="footer-description">Increase the flow of customers and sales for your business with digital marketing &#x26; growth solutions.</P>
+        </div> 
     </footer>
 </body>
 </html>
